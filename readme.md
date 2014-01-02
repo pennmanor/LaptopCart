@@ -14,6 +14,7 @@ Simply clone the repository and run the TeX compilier for your system.
 Compliling the *main.tex* file will create all of the necessary pages.
 
 For Linux, pdflatex is preferred.
+
 	pdflatex main.tex
 
 **A pre-compliled PDF is already generated for quick use**
