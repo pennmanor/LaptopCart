@@ -1,5 +1,8 @@
-Penn Manor Laptop Cart Binder Covers
+Penn Manor Laptop Binder Covers
 ==============
+This repository contains cover sheets and guidelines for student computer carts.
+
+These cover sheets and guideline pages are used on the ThinkPad and MacBook Carts throughout the Middle and Elementary Schools.
 
 About the code
 --------------
@@ -11,11 +14,11 @@ Please refer to [the Wikipedia Page](http://en.wikipedia.org/wiki/TeX) for more 
 To Compile
 --------------
 Simply clone the repository and run the TeX compilier for your system.
-Compliling the *main.tex* file will create all of the necessary pages.
+Compliling the `main.tex` file will create all of the necessary pages.
 
 For Linux, pdflatex is preferred.
 
-Edit the main.tex file to include the preferred pages (Cart1, Cart2, etc)
+Edit the `main.tex` file to include the preferred pages (Cart1, Cart2, etc)
 
 After making any changes run:
 
@@ -27,7 +30,7 @@ Uploading changes
 ----------------
 Any additions for extra 'title pages' are welcome.
 
-When uploading changes, please be sure to include an updated version of the main.pdf file.
+When uploading changes, please be sure to include an updated version of the `main.pdf` file.
 
 License
 ----------------
