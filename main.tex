@@ -3,6 +3,8 @@
 \usepackage{latexsym}
 %\usepackage[colorlinks=true, linkcolor=black, citecolor=black, filecolor=black, urlcolor=black, hypcap=false]{hyperref}
 \usepackage{caption}
+\usepackage{array}
+\usepackage{nopageno}
 \usepackage{setspace}
 \usepackage{indentfirst}
 \usepackage[final]{pdfpages}
@@ -13,13 +15,15 @@
 \textheight 21.94cm 
 \widowpenalty=800
 \clubpenalty=800
-\pagestyle{plain}       % Uncomment if don't want page numbers
+\pagestyle{myheadings}       % Uncomment if don't want page numbers
+\markright{\textbf{Date:}\hfill \textbf{Teacher Name:}\hfill \textbf{Period:}\hfill}
 \parskip 7.2pt           % sets spacing between paragraphs
 %\renewcommand{\baselinestretch}{2} % Uncomment for 1.5 spacing between lines
+\renewcommand{\arraystretch}{1.2}
 \parindent 1cm         % sets leading space for paragraphs
 
 \begin{document}
-%\pagenumbering{roman}
+\pagenumbering{gobble}
 \input{guidelines.tex}
 \input{MBCart1.tex}
 \input{MBCart2.tex}
@@ -27,6 +31,7 @@
 \input{TPCart2.tex}
 \input{TPCart3.tex}
 \input{TPCart4.tex}
+\input{TPCartLib.tex}
 % Stop your text
 \end{document}
 
